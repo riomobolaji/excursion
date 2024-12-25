@@ -1,3 +1,10 @@
+/* Base styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* line-height: 1.6; */
@@ -7,22 +14,34 @@ body {
     text-align: center;
 }
 
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+} */
+
 /* Typography */
 h1 {
     color: white;
     font-size: 50px;
     font-weight: normal;
     text-align: center;
+    /* margin-bottom: 2rem; */
 }
 
 h2 {
     font-size: 42px;
     font-weight: 300;
+    /* text-align: center;
+    margin-bottom: 1.5rem; */
     color: white;
 }
 
 h4 {
     font-size: 21px;
+    font-weight: normal;
+    /* text-align: center;
+    margin-bottom: 1rem; */
     color: grey;
 }
 
